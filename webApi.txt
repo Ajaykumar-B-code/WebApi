@@ -1,0 +1,33 @@
+ASP.NET Web API is framework for developing HTTP-enabled service
+Web Api used to develop lightweight web services
+
+here are five features of C# Web API, they are:
+
+Routing: It helps in routing through different APIs.
+Controller: It gives functional capabilities to the web application.
+Model: It gives the structural capabilities to the web application.
+Filter: It gives filters to the web application. 
+Action Result: It can keep the action logos user, such as data retrieval.
+
+ORM : object Relational Mapping(ORM) bridge between object-oriented programs and relational databases
+
+ORM Tool :software designed to help OOP developers interact with relational databases. So instead of creating your own ORM software from scratch, you can make use of these tools.
+
+ORM tools for dot net 
+1.Entity Framework
+2.NHibernate
+3.Dapper
+4.Base One Foundation Component Library
+
+Entity Framework
+Entity Framework is an open-source ORM framework for .NET applications supported by Microsoft. It enables developers to work with data using objects of domain specific classes without focusing on the underlying database tables and columns where this data is stored
+
+
+There are two path to connect with database
+Code-First and Database-First Approaches
+
+Code First Approach
+1.Define your model classes, each class corresponds to a table in your database.
+2.Create a DbContext class that inherits from the DbContext class provided by Entity Framework.
+3.Enable migrations, this way you can update the database schema so that the database and your models are still in sync. Use the package manager console to enable the migrations, use the Enable-Migrations command to do that, and create a migration with the Add-Migration <MigrationName> command.
+4.Create the database, through the package manager console, use the entity framework to create the database and the table. Also, you need to write a command for that which is the Update-Database command.
